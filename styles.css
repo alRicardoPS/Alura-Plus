@@ -1,7 +1,7 @@
 :root {
-    --branco-principal: #e30fff;
+    --branco-principal: hsl(0, 0%, 100%);
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #cd9afd;
+    --botao-azul: rgb(156, 124, 237);
     --cor-de-fundo: #080027;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
@@ -46,7 +46,8 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--botao-azul);
+
 }
 
 .container__aviso {
@@ -79,7 +80,7 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--botao-azul);
     margin-bottom: 0.1em;
 }
 
@@ -109,7 +110,7 @@ body {
 
 .dispositivos__titulo {
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--botao-azul);
 }
 
 .lista__item {
